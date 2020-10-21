@@ -14,13 +14,13 @@ Windows Requirements
 Characteristics
 ---------------
 
-* Mount volume local Windows folder "C:\\your.path\\python-docs-es"
+* Mount volume local Windows folder "C:\\\\your.path\\\\python-docs-es"
 
 
 Run
 ---
 
-  docker run -it -v C:\\your.path\\python-docs-es:/user/home/python-docs-es gedarafi/python-docs-es bash
+  docker run -it -v C:\\\\your.path\\\\python-docs-es:/user/home/python-docs-es gedarafi/python-docs-es bash
   
   # Fix po file
   powrap library/sqlite3.po
