@@ -27,3 +27,14 @@ Run
 # Fix po file
 $ powrap library/sqlite3.po
 ```
+
+Build local
+-----------
+
+Just in case you want to modify Dockerfile, and build locally
+
+```bash
+> cd python-docs-es
+> docker build . -t python-docs-es:1
+
+```
