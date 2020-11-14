@@ -21,8 +21,9 @@ Run
 ---
 
 ```bash
-docker run -it -v C:\\your.path\\python-docs-es:/user/home/python-docs-es gedarafi/python-docs-es bash
+# Create and run a container in iterative mode with a windows volume attached
+> docker run -it -v C:\\your.path\\python-docs-es:/user/home/python-docs-es gedarafi/python-docs-es bash
   
 # Fix po file
-powrap library/sqlite3.po
+$ powrap library/sqlite3.po
 ```
