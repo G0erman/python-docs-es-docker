@@ -3,7 +3,7 @@ FROM python:3.8
 
 # Install os dependences
 RUN apt-get update && apt-get -y install \
-    gettext hunspell hunspell-es
+    gettext hunspell hunspell-es vim
 
 # Download requirements
 RUN curl -O https://raw.githubusercontent.com/python/python-docs-es/3.8/requirements.txt
